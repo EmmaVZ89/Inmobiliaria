@@ -220,3 +220,117 @@ main > h2 {
   box-shadow: 3px 3px gray;
   transition: background-color 0.5s, box-shadow 0.5s;
 }
+
+/*Guia y consejos*/
+
+.blog{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: 30px;
+  float: left;
+}
+
+.blog>h2{
+  text-align: center;
+  padding-bottom: 30px;
+  color: gray;
+}
+
+.blog-article{
+  margin-bottom: 30px;
+}
+
+.blog-article:hover{
+  box-shadow: 2px 3px 4px gray;
+  transition: box-shadow 1s;
+}
+
+.a-blog{
+  width: 100%;
+  display: flex;
+  text-decoration: none;
+  padding-bottom: 30px;
+}
+
+.img-blog{
+  width: 15rem;
+  height: 10rem;
+  object-fit: cover;
+}
+
+.div-blog{
+  padding-left: 20px;
+}
+
+.div-blog>h3{
+  padding-bottom: 30px;
+  font-size: 1.5rem;
+}
+
+.div-blog>p{
+  padding-bottom: 30px;
+}
+
+
+/* Comentarios */
+
+.comentarios{
+  width: 40%;
+  float: right;
+  margin-right: 30px;
+}
+
+.h2-comentarios{
+  color: gray;
+  text-align: center;
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+
+.quote-comentarios{
+  color: white;
+  background-color: rgb(95, 155, 55);
+  border-radius: 10px;
+  padding: 50px;
+  line-height: 3rem;
+}
+
+.cita-comentarios{
+  display: block;
+  text-align: right;
+}
+
+
+/* footer */
+
+.footer{
+  clear: both;
+  background-color: rgb(7, 4, 4);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 20px;
+}
+
+.footer>p{
+  color: white;
+}
+
+.nav-footer {
+  display: flex;
+  align-items: center;
+  height: 50px;
+  right: 0;
+}
+
+.nav-footer > ul {
+  display: flex;
+  list-style: none;
+}
+
+.nav-footer a {
+  text-decoration: none;
+  color: white;
+  padding: 10px 20px;
+}
